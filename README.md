@@ -1,1 +1,1 @@
-This is a weather that uses the open weather api.
+This is a weather app that uses the open weather api.
