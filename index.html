@@ -9,6 +9,23 @@
     <title>Weather</title>
 </head>
 <body>
-    
+    <div class="container">
+        <form class="form">
+            <label for="location" class="promt_location">
+                Enter city you want to know the weather of:
+            </label>
+            <input type="text" class="location" required>
+            <label for="units" class="unit_label">
+                Please Select a unit:
+            </label>
+            <select class="units">
+                <option value="metric">metric</option>
+                <option value="imperial">imperial</option>
+                <option value="standard">standard</option>
+            </select>
+        </form>
+        <button class="enter">Get Weather</button>
+        <div class="display"></div>
+    </div>
 </body>
 </html>
