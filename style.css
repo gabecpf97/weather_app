@@ -1,0 +1,36 @@
+body {
+    background-color: aliceblue;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    border: #583b8d solid;
+    padding: 5px;
+}
+
+.enter {
+    margin-left: 10px;
+}
+
+.city {
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: cursive;
+}
+
+.holder {
+    display: flex;
+    justify-content: space-around;
+    overflow: overlay;
+    font-family: monospace;
+}
+
+.fields {
+    border: blueviolet double;
+    padding: 10px;
+}
+
+.label_weather {
+    border-bottom: #89209b solid;
+}
